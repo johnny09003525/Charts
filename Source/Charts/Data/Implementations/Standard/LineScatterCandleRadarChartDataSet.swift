@@ -37,6 +37,16 @@ open class LineScatterCandleRadarChartDataSet: BarLineScatterCandleBubbleChartDa
         drawHorizontalHighlightIndicatorEnabled = enabled
         drawVerticalHighlightIndicatorEnabled = enabled
     }
+
+    open func setDrawHorizontalHighlightIndicators(_ enabled: Bool)
+    {
+        drawHorizontalHighlightIndicatorEnabled = enabled
+    }
+
+    open func setDrawVerticalHighlightIndicators(_ enabled: Bool)
+    {
+        drawVerticalHighlightIndicatorEnabled = enabled
+    }
     
     // MARK: NSCopying
     
